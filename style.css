@@ -1,0 +1,197 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.9px;
+  background-color: black;
+  color: white;
+}
+
+.meno {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  word-spacing: 7px;
+}
+
+.compass {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  height: 40px;
+  padding-left: 800px;
+  margin-top: 10px;
+}
+
+.omneText {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 500px;
+  width: 900px;
+  font-size: 20px;
+}
+
+.aboutmeImg {
+  width: 300px;
+  padding-right: 100px;
+  padding-top: 20px;
+  transition: all 1s ease;
+}
+
+.aboutmeImg:hover {
+  content: url(website-photo-me.jpg);
+}
+
+.OMne {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-top: 0px;
+}
+
+.proTip {
+  display: flex;
+  color: rgb(148, 147, 147);
+  font-size: 10px;
+  font-style: italic;
+  padding-left: 90px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font: inherit;
+}
+
+a.button {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  border: 1px solid green;
+  border-radius: 5px;
+  box-shadow: 3px 3px 0 green;
+  text-decoration: none;
+  font: inherit;
+  transition:
+    background-color 0.3s ease,
+    box-shadow 0.3s ease,
+    transform 0.1s ease;
+}
+
+a.button:hover {
+  background-color: green;
+  box-shadow: 2px 2px 0 #000;
+  transform: translate(1px, 1px);
+}
+
+a.button:active {
+  box-shadow: 1px 1px 0 #000;
+  transform: translate(2px, 2px);
+}
+
+.activePage {
+  display: inline-block;
+  color: green;
+  text-shadow: 1px 1px 0 currentColor;
+}
+
+.introText {
+  margin-top: 40px;
+  margin-left: 80px;
+  font-size: 20px;
+  width: auto;
+  text-align: left;
+}
+
+.aText {
+  margin-top: 50px;
+  margin-right: 80px;
+  text-align: right;
+}
+
+.bText {
+  margin-left: 80px;
+  margin-top: 50px;
+  text-align: left;
+}
+
+.hobbyText {
+  line-height: 32px;
+  font-size: 20px;
+}
+
+.titleOne {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+  border: 4px solid white;
+  padding: 20px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titleTwo {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  border: 4px solid white;
+  padding: 20px;
+  width: fit-content;
+  margin-top: 70px;
+}
+
+.fotoText {
+  line-height: 32px;
+  font-size: 20px;
+}
+
+.sky {
+  display: block;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: 2px solid green;
+  box-shadow: 5px 5px 5px green;
+}
+
+.skusenostiText {
+  width: 700px;
+  margin-top: 100px;
+  margin-left: 100px;
+  font-size: 20px;
+}
+
+.kockaciImg {
+  width: 400px;
+  margin-top: 70px;
+  margin-left: 100px;
+  transition: all 1s ease;
+}
+
+.skusenosti {
+  display: flex;
+  flex-direction: row;
+  gap: 105px;
+}
+
+.kockaciImg:hover {
+  content: url(kockaci.jpg);
+  height: 396px;
+}
+
+.studio {
+  margin-left: 100px;
+  margin-top: 45px;
+  font-size: 17px;
+}
+
+.kontakt {
+  margin-top: 0;
+}
